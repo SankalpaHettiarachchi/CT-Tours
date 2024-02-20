@@ -54,23 +54,82 @@
                 </div>
             </div>
         </div><!--====== Search From ======-->
-
-        <!--====== Header Area ======-->
-        <header class="header-area header-one transparent-header">
+        
+        <!--====== Start Header ======-->
+        <header class="header-area header-three">
+            <!--====== Header Top Bar ======-->
+            <div class="header-top-bar pt-30 pb-30">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-3 d-none d-xl-block">
+                            <!--====== Site Branding ======-->
+                            <div class="site-brading">
+                                <a href="index-3.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/logo-black.png') }}" alt="Logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-12">
+                            <!--====== Information Wrapper ======-->
+                            <div class="information-wrapper">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="single-info-item-two">
+                                            <div class="inner-info">
+                                                <div class="icon">
+                                                    <i class="far fa-map-marker-alt"></i>
+                                                </div>
+                                                <div class="info">
+                                                    <span class="title">Office Address</span>
+                                                    <h5>583 Main Street, USA</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="single-info-item-two">
+                                            <div class="inner-info">
+                                                <div class="icon">
+                                                    <i class="far fa-envelope"></i>
+                                                </div>
+                                                <div class="info">
+                                                    <span class="title">Email Address</span>
+                                                    <h5><a href="mailto:support@gmail.com">support@gmail.com</a></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="single-info-item-two">
+                                            <div class="inner-info">
+                                                <div class="icon">
+                                                    <i class="far fa-phone-plus"></i>
+                                                </div>
+                                                <div class="info">
+                                                    <span class="title">Drop a Line</span>
+                                                    <h5><a href="tel:+000(123)45688">+000 (123) 456 88</a></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!--====== Header Navigation ======-->
-            <div class="header-navigation navigation-white">
+            <div class="header-navigation">
                 <div class="nav-overlay"></div>
                 <div class="container-fluid">
-                    <div class="primary-menu">
+                    <div class="primary-menu gray-bg">
                         <!--====== Site Branding ======-->
-                        <div class="site-branding">
-                            <a href="index.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/CT_Logo.png') }}" alt="Site Logo"></a>
+                        <div class="site-brading d-block d-xl-none">
+                            <a href="index-3.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/logo-black.png') }}" alt="Logo"></a>
                         </div>
                         <!--====== Nav Menu ======-->
                         <div class="nav-menu">
                             <!--====== Site Branding ======-->
                             <div class="mobile-logo mb-30 d-block d-xl-none">
-                                <a href="index.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/CT_Logo.png') }}" alt="Site Logo"></a>
+                                <a href="index.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/logo-black.png') }}" alt="Site Logo"></a>
                             </div>
                             <!--=== Nav Search ===-->
                             <div class="nav-search mb-30 d-block d-xl-none ">
@@ -84,10 +143,10 @@
                             <!--====== main Menu ======-->
                             <nav class="main-menu">
                                 <ul>
-                                    <li class="menu-item"><a href="#">Home</a></li>
+                                    <li class="menu-item"><a href="{{ Route('home') }}">Home</a></li>
                                     <li class="menu-item"><a href="{{ Route('about') }}">About Us</a></li>
-                                    <li class="menu-item"><a href="#">Gallary</a></li>
-                                    <li class="menu-item"><a href="#">Contact Us</a></li>
+                                    <li class="menu-item"><a href="{{ Route('gallary') }}">Gallary</a></li>
+                                    <li class="menu-item"><a href="{{ Route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </nav>
                             <!--====== Menu Button ======-->
@@ -109,10 +168,9 @@
                     </div>
                 </div>
             </div>
-        </header><!--====== End Area ======-->
+        </header><!--====== End Header ======-->
 
         @yield('content')
-
 
         <!--====== Start Gallery Section ======-->
         <section class="gallery-section mbm-150">
@@ -311,7 +369,7 @@
                 </div>
             </div>
         </footer><!--====== End Footer ======-->
-        
+
         <!--====== Back To Top  ======-->
         <a href="#" class="back-to-top" ><i class="far fa-angle-up"></i></a>
         <!--====== Jquery js ======-->
@@ -324,6 +382,10 @@
         <script src="{{ asset('assets/Site/vendor/slick/slick.min.js') }}"></script>
         <!--====== Magnific js ======-->
         <script src="{{ asset('assets/Site/vendor/magnific-popup/dist/jquery.magnific-popup.min.js') }}"></script>
+        <!--====== Isotope js ======-->
+        <script src="{{ asset('assets/Site/vendor/isotope.min.js') }}"></script>
+        <!--====== Imagesloaded js ======-->
+        <script src="{{ asset('assets/Site/vendor/imagesloaded.min.js') }}"></script>
         <!--====== Counterup js ======-->
         <script src="{{ asset('assets/Site/vendor/jquery.counterup.min.js') }}"></script>
         <!--====== Waypoints js ======-->
