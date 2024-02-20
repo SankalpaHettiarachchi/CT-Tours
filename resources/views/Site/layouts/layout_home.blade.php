@@ -81,16 +81,18 @@
                                     </div>
                                 </form>
                             </div>
+                            
                             <!--====== main Menu ======-->
                             <nav class="main-menu">
                                 <ul>
-                                    <li class="menu-item"><a href="#">Home</a></li>
+                                    <li class="menu-item"><a href="{{ Route('home') }}">Home</a></li>
                                     <li class="menu-item"><a href="{{ Route('about') }}">About Us</a></li>
-                                    <li class="menu-item"><a href="#">Gallary</a></li>
-                                    <li class="menu-item"><a href="#">Contact Us</a></li>
+                                    <li class="menu-item"><a href="{{ Route('gallary') }}">Gallary</a></li>
+                                    <li class="menu-item"><a href="{{ Route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </nav>
                             <!--====== Menu Button ======-->
+
                             <div class="menu-button mt-40 d-xl-none">
                                 <a href="contact.html" class="main-btn secondary-btn">Book Now<i class="fas fa-paper-plane"></i></a>
                             </div>
