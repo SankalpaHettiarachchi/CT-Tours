@@ -64,7 +64,7 @@
                         <div class="col-xl-3 d-none d-xl-block">
                             <!--====== Site Branding ======-->
                             <div class="site-brading">
-                                <a href="index-3.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/logo-black.png') }}" alt="Logo"></a>
+                                <a href="index-3.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/CT_Logo_white.png') }}" alt="Logo"></a>
                             </div>
                         </div>
                         <div class="col-xl-9 col-lg-12">

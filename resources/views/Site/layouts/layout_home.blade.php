@@ -70,7 +70,7 @@
                         <div class="nav-menu">
                             <!--====== Site Branding ======-->
                             <div class="mobile-logo mb-30 d-block d-xl-none">
-                                <a href="index.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/CT_Logo.png') }}" alt="Site Logo"></a>
+                                <a href="index.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/CT_Logo_white.png') }}" alt="Site Logo"></a>
                             </div>
                             <!--=== Nav Search ===-->
                             <div class="nav-search mb-30 d-block d-xl-none ">
@@ -81,7 +81,7 @@
                                     </div>
                                 </form>
                             </div>
-                            
+
                             <!--====== main Menu ======-->
                             <nav class="main-menu">
                                 <ul>
