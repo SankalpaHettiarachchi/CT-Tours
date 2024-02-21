@@ -143,10 +143,10 @@
                             <!--====== main Menu ======-->
                             <nav class="main-menu">
                                 <ul>
-                                    <li class="menu-item"><a href="{{ Route('home') }}">Home</a></li>
-                                    <li class="menu-item"><a href="{{ Route('about') }}">About Us</a></li>
-                                    <li class="menu-item"><a href="{{ Route('gallary') }}">Gallary</a></li>
-                                    <li class="menu-item"><a href="{{ Route('contact') }}">Contact Us</a></li>
+                                    <li class="menu-item"><a style="{{ $active_home }}" href="{{ Route('home') }}">Home</a></li>
+                                    <li class="menu-item"><a style="{{ $active_about }}" href="{{ Route('about') }}">About Us</a></li>
+                                    <li class="menu-item"><a style="{{ $active_gallery }}" href="{{ Route('gallary') }}">Gallary</a></li>
+                                    <li class="menu-item"><a style="{{ $active_contact }}" href="{{ Route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </nav>
                             <!--====== Menu Button ======-->

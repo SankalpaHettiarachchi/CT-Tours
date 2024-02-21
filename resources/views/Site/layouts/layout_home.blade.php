@@ -41,19 +41,6 @@
                 <div class="pre-box"></div>
             </div>
         </div><!--====== End Preloader ======-->
-        <!--====== Search From ======-->
-		<div class="modal fade search-modal" id="search-modal">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <form>
-                        <div class="form_group">
-                        	<input type="search" class="form_control" placeholder="Search here" name="search">
-                        	<label><i class="fa fa-search"></i></label>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div><!--====== Search From ======-->
 
         <!--====== Header Area ======-->
         <header class="header-area header-one transparent-header">
@@ -72,23 +59,14 @@
                             <div class="mobile-logo mb-30 d-block d-xl-none">
                                 <a href="index.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/CT_Logo_white.png') }}" alt="Site Logo"></a>
                             </div>
-                            <!--=== Nav Search ===-->
-                            <div class="nav-search mb-30 d-block d-xl-none ">
-                                <form>
-                                    <div class="form_group">
-                                        <input type="email" class="form_control" placeholder="Search Here" name="email" required>
-                                        <button class="search-btn"><i class="fas fa-search"></i></button>
-                                    </div>
-                                </form>
-                            </div>
 
                             <!--====== main Menu ======-->
                             <nav class="main-menu">
                                 <ul>
-                                    <li class="menu-item"><a href="{{ Route('home') }}">Home</a></li>
-                                    <li class="menu-item"><a href="{{ Route('about') }}">About Us</a></li>
-                                    <li class="menu-item"><a href="{{ Route('gallary') }}">Gallary</a></li>
-                                    <li class="menu-item"><a href="{{ Route('contact') }}">Contact Us</a></li>
+                                    <li class="menu-item"><a style="{{ $active_home }}" href="{{ Route('home') }}">Home</a></li>
+                                    <li class="menu-item"><a style="{{ $active_about }}" href="{{ Route('about') }}">About Us</a></li>
+                                    <li class="menu-item"><a style="{{ $active_gallery }}" href="{{ Route('gallary') }}">Gallary</a></li>
+                                    <li class="menu-item"><a style="{{ $active_contact }}" href="{{ Route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </nav>
                             <!--====== Menu Button ======-->

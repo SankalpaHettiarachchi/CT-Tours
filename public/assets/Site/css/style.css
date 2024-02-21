@@ -4604,3 +4604,7 @@ ul.slick-dots li {
 
 /* .........................#Editing CSS......................................... */
 
+.header-navigation .main-menu ul > li > a .item_active
+{
+  color: #63AB45;
+}
