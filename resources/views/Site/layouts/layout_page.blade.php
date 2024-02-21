@@ -336,11 +336,11 @@
                             <div class="footer-widget footer-newsletter-widget mb-40 pl-lg-100 wow fadeInUp">
                                 <h4 class="widget-title">Newsletter</h4>
                                 <div class="footer-content">
-                                    <p>Get the latest updates. Subscribe to our newsletter!</p>
+                                    <p>Get the latest updates. Subscribe to our newsletter !</p>
                                     <form>
                                         <div class="form_group">
+                                            <input type="email" class="form_control" placeholder="Email" name="email" required>
                                             <label><i class="far fa-paper-plane"></i></label>
-                                            <input type="email" class="form_control" placeholder="Email Address" name="email" required>
                                         </div>
                                     </form>
                                 </div>
