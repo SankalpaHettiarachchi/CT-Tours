@@ -92,7 +92,7 @@
                                                 </div>
                                                 <div class="info">
                                                     <span class="title">Email Address</span>
-                                                    <h5><a href="mailto:info@CTTours.com">info@CTTours.com</a></h5>
+                                                    <h5><a href="mailto:info@cttravelsandtours.com">info@cttravelsandtours.com</a></h5>
                                                 </div>
                                             </div>
                                         </div>

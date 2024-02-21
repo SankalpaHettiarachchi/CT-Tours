@@ -182,7 +182,7 @@
                                 </div>
                                 <div class="info">
                                     <span class="title">Email</span>
-                                    <p><a href="mailto:info@CTTours.com">info@CTTours.com</a></p>
+                                    <p><a href="mailto:info@cttravelsandtours.com">info@cttravelsandtours.com</a></p>
                                 </div>
                             </div>
                         </div>
