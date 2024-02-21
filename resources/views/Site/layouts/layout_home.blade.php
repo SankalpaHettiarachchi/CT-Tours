@@ -54,10 +54,10 @@
                             <a href="index.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/CT_Logo.png') }}" alt="Site Logo"></a>
                         </div>
                         <!--====== Nav Menu ======-->
-                        <div class="nav-menu">
+                        <div class="nav-menu dark_menu">
                             <!--====== Site Branding ======-->
                             <div class="mobile-logo mb-30 d-block d-xl-none">
-                                <a href="index.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/CT_Logo_white.png') }}" alt="Site Logo"></a>
+                                <a href="index.html" class="brand-logo"><img src="{{ asset('assets/Site/images/logo/CT_Logo.png') }}" alt="Site Logo"></a>
                             </div>
 
                             <!--====== main Menu ======-->

@@ -769,7 +769,11 @@ button {
   overflow-y: scroll;
   z-index: 9999; }
   .header-navigation.breakpoint-on .nav-menu.menu-on {
-    left: 0; }
+    left: 0; 
+  }
+  .dark_menu {
+    background-color: #1d231f !important; 
+  }
   .header-navigation.breakpoint-on .nav-menu .main-menu ul li {
     display: block;
     margin: 0;
@@ -896,7 +900,9 @@ button {
 .header-top-bar .single-info-item-two {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: flex-end; }
+  justify-content: flex-end; 
+  padding-right: 25px ;
+}
   @media (max-width: 1199px) {
     .header-top-bar .single-info-item-two {
       -webkit-box-pack: center;
