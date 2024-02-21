@@ -248,7 +248,7 @@
                                 </div>
                                 <div class="info">
                                     <span class="title">Location</span>
-                                    <p>55 Main Street, Australia</p>
+                                    <p>No 252, Koggala, Habaraduwa 80000 Galle, Sri Lanka</p>
                                 </div>
                             </div>
                         </div>
@@ -260,7 +260,7 @@
                                 </div>
                                 <div class="info">
                                     <span class="title">Email</span>
-                                    <p><a href="mailto:support@gmail.com">support@gmail.com</a></p>
+                                    <p><a href="mailto:info@CTTours.com">info@CTTours.com</a></p>
                                 </div>
                             </div>
                         </div>
@@ -268,11 +268,11 @@
                             <!--=== Single Info Item ===-->
                             <div class="single-info-item mb-40">
                                 <div class="icon">
-                                    <i class="far fa-map-marker-alt"></i>
+                                    <i class="far fa-phone"></i>
                                 </div>
                                 <div class="info">
                                     <span class="title">Hotline</span>
-                                    <p><a href="tel:+000(123)456898">+000 (123) 456 898</a></p>
+                                    <p><a href="tel:+9477 871 5645">+9477 871 5645</a></p>
                                 </div>
                             </div>
                         </div>
@@ -280,10 +280,10 @@
                             <!--=== Social Box ===-->
                             <div class="social-box mb-40 float-lg-end">
                                 <ul class="social-link">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100063650349840&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100063650349840&mibextid=ZbWKwL"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100063650349840&mibextid=ZbWKwL"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100063650349840&mibextid=ZbWKwL"><i class="fab fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -336,11 +336,11 @@
                             <div class="footer-widget footer-newsletter-widget mb-40 pl-lg-100 wow fadeInUp">
                                 <h4 class="widget-title">Newsletter</h4>
                                 <div class="footer-content">
-                                    <p>Get the latest updates. Subscribe to our newsletter !</p>
+                                    <p>Get the latest updates. Subscribe to our newsletter!</p>
                                     <form>
                                         <div class="form_group">
-                                            <input type="email" class="form_control" placeholder="Email" name="email" required>
                                             <label><i class="far fa-paper-plane"></i></label>
+                                            <input type="email" class="form_control" placeholder="Email Address" name="email" required>
                                         </div>
                                     </form>
                                 </div>
