@@ -1052,9 +1052,10 @@ button {
   @media (max-width: 991px) {
     .hero-wrapper .hero-content {
       padding-left: 0; } }
-  .hero-wrapper .hero-content h1 {
-    text-transform: uppercase;
-    margin-bottom: 25px; }
+  .hero-wrapper .hero-content h1 
+  {
+    margin-bottom: 25px; 
+  }
   .hero-wrapper .hero-content .text-button {
     max-width: 600px; }
     @media (max-width: 1199px) {

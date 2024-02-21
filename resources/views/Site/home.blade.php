@@ -15,15 +15,11 @@
                             <div class="col-xl-6">
                                 <!--=== Hero Content ===-->
                                 <div class="hero-content text-white">
-                                    <h1 data-animation="fadeInDown" data-delay=".4s">Travel &
-                                        Adventure
-                                        Camping</h1>
+                                    <h1 data-animation="fadeInDown" data-delay=".4s">Sri Lankan Best Tour Agent</h1>
                                     <div class="text-button d-flex align-items-center">
-                                        <p data-animation="fadeInLeft" data-delay=".5s">Nunc et dui nullam aliquam eget
-                                            velit. Consectetur nulla convallis
-                                            viverra quisque eleifend</p>
+                                        <p data-animation="fadeInLeft" data-delay=".5s">Sri Lanka's top tour agent, offering unmatched travel experiences with expert guidance and personalized service.</p>
                                         <div class="hero-button" data-animation="fadeInRight" data-delay=".6s"> 
-                                            <a href="about.html" class="main-btn primary-btn">Explore More<i class="fas fa-paper-plane"></i></a>
+                                            <a href="{{ Route('contact') }}" class="main-btn primary-btn">Contact Us<i class="fas fa-phone"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -44,15 +40,11 @@
                             <div class="col-xl-6">
                                 <!--=== Hero Content ===-->
                                 <div class="hero-content text-white">
-                                    <h1 data-animation="fadeInDown" data-delay=".4s">Travel &
-                                        Adventure
-                                        Tour</h1>
+                                    <h1 data-animation="fadeInDown" data-delay=".4s">CT Tours & Travels</h1>
                                     <div class="text-button d-flex align-items-center">
-                                        <p data-animation="fadeInLeft" data-delay=".5s">Nunc et dui nullam aliquam eget
-                                            velit. Consectetur nulla convallis
-                                            viverra quisque eleifend</p>
+                                        <p data-animation="fadeInLeft" data-delay=".5s">Your Gateway to Unforgettable Journeys and Authentic Experiences in Sri Lanka.</p>
                                         <div class="hero-button" data-animation="fadeInRight" data-delay=".6s"> 
-                                            <a href="about.html" class="main-btn primary-btn">Explore More<i class="fas fa-paper-plane"></i></a>
+                                            <a href="{{ Route('about') }}" class="main-btn primary-btn">See More<i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -269,9 +261,9 @@
                                             <p>The cool climate and scenic landscapes make tea plantation tours a refreshing and educational experience for tourists exploring the hill country.</p>
 
                                             <ul class="check-list">
-                                                <li><i class="fas fa-badge-check"></i>Family Camping</li>
-                                                <li><i class="fas fa-badge-check"></i>Couple Camping</li>
-                                                <li><i class="fas fa-badge-check"></i>Wild Camping</li>
+                                                <li><i class="fas fa-badge-check"></i>Tea Factory Visits</li>
+                                                <li><i class="fas fa-badge-check"></i>Tea Tasting Experiences</li>
+                                                <li><i class="fas fa-badge-check"></i>Guided Tea Estate Walks</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -299,9 +291,9 @@
                                             <p>Surf schools and board rentals are readily available for visitors of all skill levels, making it an ideal destination for surfing enthusiasts</p>
                                             
                                             <ul class="check-list">
-                                                <li><i class="fas fa-badge-check"></i>Family Camping</li>
-                                                <li><i class="fas fa-badge-check"></i>Couple Camping</li>
-                                                <li><i class="fas fa-badge-check"></i>Wild Camping</li>
+                                                <li><i class="fas fa-badge-check"></i>Beginner Surfing</li>
+                                                <li><i class="fas fa-badge-check"></i>Surf Camps for Intermediate Surfers</li>
+                                                <li><i class="fas fa-badge-check"></i>Advanced Surfing Excursions</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -329,9 +321,9 @@
                                             <p>The thrill of witnessing these majestic creatures in their natural habitat amidst the stunning coastal scenery makes whale watching in Mirissa a memorable experience.</p>
 
                                             <ul class="check-list">
-                                                <li><i class="fas fa-badge-check"></i>Family Camping</li>
-                                                <li><i class="fas fa-badge-check"></i>Couple Camping</li>
-                                                <li><i class="fas fa-badge-check"></i>Wild Camping</li>
+                                                <li><i class="fas fa-badge-check"></i>Morning Boat Tours</li>
+                                                <li><i class="fas fa-badge-check"></i>Sunset Cruises</li>
+                                                <li><i class="fas fa-badge-check"></i>Exclusive Private Charter</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -359,9 +351,9 @@
                                             <p>The hike provides a rewarding outdoor adventure and a chance to immerse oneself in Sri Lanka's stunning natural beauty.</p>
                                                 
                                             <ul class="check-list">
-                                                <li><i class="fas fa-badge-check"></i>Family Camping</li>
-                                                <li><i class="fas fa-badge-check"></i>Couple Camping</li>
-                                                <li><i class="fas fa-badge-check"></i>Wild Camping</li>
+                                                <li><i class="fas fa-badge-check"></i>Day Hikes</li>
+                                                <li><i class="fas fa-badge-check"></i>Multi-Day Treks</li>
+                                                <li><i class="fas fa-badge-check"></i>Sunrise Summit Trails</li>
                                             </ul>
                                         </div>
                                     </div>
