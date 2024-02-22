@@ -95,7 +95,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="contact-area contact-form wow fadeInUp">
-                        <form id="contactForm" class="contactForm" action="" name="contactForm" method="post">
+                        <form id="contactForm" class="contactForm" action="{{ route('sendmessage') }}" name="contactForm" method="post">
+                            @csrf
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="form_group form-group">

@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\GallaryController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ContactEmailController;
 
 
 /*
@@ -24,3 +25,5 @@ Route::get('/home',[HomeController::class,'index'])->name('home');
 Route::get('/about',[AboutController::class,'index'])->name('about');
 Route::get('/gallary',[GallaryController::class,'index'])->name('gallary');
 Route::get('/contact',[ContactController::class,'index'])->name('contact');
+
+Route::post('/sendmessage',[ContactEmailController::class,'index'])->name('sendmessage');
