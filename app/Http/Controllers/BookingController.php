@@ -7,16 +7,15 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Mail;
 
-
-class ContactEmailController extends Controller
+class BookingController extends Controller
 {
     public function index(Request $request)
     {
         $validator = Validator::make($request->all(), 
         [
-            'name'=> 'required',
-            'phone_number'=> 'required',
-            'email'=> 'required|email',
+            'checkin'=> 'required',
+            'checkout'=> 'required',
+            'name'=> 'required|email',
             'message'=> 'required',
         ],
         
@@ -29,7 +28,7 @@ class ContactEmailController extends Controller
         }
         else
         {
-            return redirect('/contact');
+            return redirect('/home');
         }
     }
 }

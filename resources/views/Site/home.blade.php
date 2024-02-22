@@ -150,24 +150,25 @@
                             <span class="sub-title">Availability</span>
                             <h2>Booking Your Best Tour & Travel Availability</h2>
                         </div>
-                        <form class="booking-form">
+                        <form class="booking-form" action="{{ route('booking') }}" method="post">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form_group">
                                         <label><i class="far fa-calendar-alt"></i></label>
-                                        <input type="text" class="form_control datepicker" placeholder="Check In">
+                                        <input type="text" class="form_control datepicker" placeholder="Check In" id="checkin">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form_group">
                                         <label><i class="far fa-calendar-alt"></i></label>
-                                        <input type="text" class="form_control datepicker" placeholder="Check Out">
+                                        <input type="text" class="form_control datepicker" placeholder="Check Out" id="checkout">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form_group">
                                         <label><i class="far fa-user-alt"></i></label>
-                                        <input type="text" class="form_control" placeholder="Guest" name="text">
+                                        <input type="text" class="form_control" placeholder="Guest" name="text" id="name">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -184,11 +185,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <textarea name="comments" placeholder="Comments" class="form_control" cols="8" rows="3"></textarea>
+                                    <textarea name="comments" placeholder="Comments" class="form_control" cols="8" rows="3" id="message"></textarea>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form_group">
-                                        <button class="main-btn primary-btn">Check availability<i class="fas fa-paper-plane"></i></button>
+                                        <button class="main-btn primary-btn">Send Message<i class="fas fa-paper-plane"></i></button>
                                     </div>
                                 </div>
                             </div>

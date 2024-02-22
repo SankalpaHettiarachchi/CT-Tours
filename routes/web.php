@@ -6,6 +6,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\GallaryController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ContactEmailController;
+use App\Http\Controllers\BookingController;
 
 
 /*
@@ -27,3 +28,4 @@ Route::get('/gallary',[GallaryController::class,'index'])->name('gallary');
 Route::get('/contact',[ContactController::class,'index'])->name('contact');
 
 Route::post('/sendmessage',[ContactEmailController::class,'index'])->name('sendmessage');
+Route::post('/booking',[BookingController::class,'index'])->name('booking');

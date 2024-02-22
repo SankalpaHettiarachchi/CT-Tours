@@ -72,13 +72,13 @@
                             <!--====== Menu Button ======-->
 
                             <div class="menu-button mt-40 d-xl-none">
-                                <a href="contact.html" class="main-btn secondary-btn">Book Now<i class="fas fa-paper-plane"></i></a>
+                                <a href="{{ route('home') }}" class="main-btn secondary-btn">Book Now<i class="fas fa-paper-plane"></i></a>
                             </div>
                         </div>
                         <!--====== Nav Right Item ======-->
                         <div class="nav-right-item">
                             <div class="menu-button d-xl-block d-none">
-                                <a href="contact.html" class="main-btn primary-btn">Book Now<i class="fas fa-paper-plane"></i></a>
+                                <a href="{{ route('home') }}" class="main-btn primary-btn">Book Now<i class="fas fa-paper-plane"></i></a>
                             </div>
                             <div class="navbar-toggler">
                                 <span></span>
