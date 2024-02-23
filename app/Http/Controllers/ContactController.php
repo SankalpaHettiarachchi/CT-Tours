@@ -14,6 +14,6 @@ class ContactController extends Controller
             'active_gallery' =>'color:#1D231F',    
             'active_contact' =>'color:#63AB45',    
         ];
-        return view('Site.Contact')->with($data);
+        return view('Site.contact')->with($data);
     }
 }
