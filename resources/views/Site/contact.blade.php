@@ -73,14 +73,6 @@
         </div>
     </section><!--====== End Info Section ======-->
 
-    <!--====== Start Contact Map Section ======-->
-    <section class="contact-page-map pb-100 wow fadeInUp">
-        <!--=== Map Box ===-->
-        <div class="map-box">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15871.878237323024!2d80.30096034204313!3d5.998917153778293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae16d2340ba6ccf%3A0xf70109cdce10e6fd!2sHabaraduwa!5e0!3m2!1sen!2slk!4v1708377127208!5m2!1sen!2slk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section><!--====== End Contact Map Section ======-->
-
     <!--====== Start Contact Section ======-->
     <section class="contact-section pb-100">
         <div class="container">

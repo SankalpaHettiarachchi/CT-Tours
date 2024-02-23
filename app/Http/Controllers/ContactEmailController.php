@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\Contact_Mail;
 
 
 class ContactEmailController extends Controller
@@ -29,6 +30,8 @@ class ContactEmailController extends Controller
         }
         else
         {
+            Mail::to('info@cttravelsandtours.com')->send(new Contact_Mail($request));
+            Session::flash('success', 'Message Sent. Thank You !'); 
             return redirect('/contact');
         }
     }
